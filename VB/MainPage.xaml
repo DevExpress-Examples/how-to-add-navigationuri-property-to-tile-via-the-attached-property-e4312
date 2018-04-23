@@ -1,0 +1,16 @@
+﻿<UserControl
+    x:Class="DXSilverlightApplication1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
+	xmlns:local="clr-namespace:DXSilverlightApplication1"
+    mc:Ignorable="d"
+    d:DesignHeight="768" d:DesignWidth="1440">
+	<dxlc:TileLayoutControl Background="PaleTurquoise" Name="tileLayoutControl1" BreakFlowToFit="True" ItemSpace="7" LayerSpace="30" UseLayoutRounding="True" VerticalOffset="23" Orientation="Vertical">
+        <dxlc:Tile Name="Tile1" Background="#00CC66" local:NavigateUri.NavigateUri="http://www.google.com/" />
+        <dxlc:Tile Background="Blue" local:NavigateUri.NavigateUri="http://msdn.microsoft.com/" />
+        <dxlc:Tile Background="Red" local:NavigateUri.NavigateUri="http://www.devexpress.com/" />
+	</dxlc:TileLayoutControl>
+</UserControl>  
